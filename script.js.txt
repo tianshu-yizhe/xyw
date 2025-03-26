@@ -1,0 +1,25 @@
+const registerForm = document.getElementById('registerForm');
+
+registerForm.addEventListener('submit', function (e) {
+  e.preventDefault(); // 阻止表单默认提交行为，防止页面刷新
+
+  const username = document.getElementById('username').value;
+  const password = document.getElementById('password').value;
+  const idNumber = document.getElementById('idNumber').value;
+  const email = document.getElementById('email').value;
+  const homePhone = document.getElementById('homePhone').value;
+  const mobile = document.getElementById('mobile').value;
+  const address = document.getElementById('address').value;
+  const postalCode = document.getElementById('postalCode').value;
+
+  // 这里可以添加数据验证和发送到服务器的代码，
+  // 目前简单打印到控制台查看
+  console.log('用户名:', username);
+  console.log('密码:', password);
+  console.log('身份证号:', idNumber);
+  console.log('email:', email);
+  console.log('家庭电话:', homePhone);
+  console.log('手机:', mobile);
+  console.log('通讯地址:', address);
+  console.log('邮编:', postalCode);
+});

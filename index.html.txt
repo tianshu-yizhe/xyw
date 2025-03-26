@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"> <!-- 关联外部CSS文件 -->
+  <title>欢迎注册</title>
+</head>
+
+<body>
+  <form id="registerForm">
+    <h2>欢迎注册</h2>
+    <label for="username">用户名</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password">密码</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="idNumber">身份证号</label>
+    <input type="text" id="idNumber" name="idNumber" required><br><br>
+
+    <label for="email">email</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="homePhone">家庭电话</label>
+    <input type="text" id="homePhone" name="homePhone"><br><br>
+
+    <label for="mobile">手机</label>
+    <input type="text" id="mobile" name="mobile" required><br><br>
+
+    <label for="address">通讯地址</label>
+    <input type="text" id="address" name="address"><br><br>
+
+    <label for="postalCode">邮编</label>
+    <input type="text" id="postalCode" name="postalCode"><br><br>
+
+    <input type="submit" value="提交">
+  </form>
+  <script src="script.js"></script> <!-- 关联外部JavaScript文件 -->
+</body>
+
+</html>
